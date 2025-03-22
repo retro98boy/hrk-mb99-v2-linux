@@ -18,6 +18,7 @@
 		ethernet0 = &gmac;
 		mmc0 = &sdhci;
 		mmc1 = &sdmmc;
+		rtc0 = &rk808;
 	};
 
 	chosen {
