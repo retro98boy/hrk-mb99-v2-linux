@@ -483,6 +483,12 @@
 		};
 	};
 
+	relay {
+		relay-ctrl {
+			rockchip,pins = <4 RK_PA4 RK_FUNC_GPIO &pcfg_pull_none>;
+		};
+	};
+
 	rt5651 {
 		hp_det: hp-det {
 			rockchip,pins = <1 RK_PC2 RK_FUNC_GPIO &pcfg_pull_none>;
