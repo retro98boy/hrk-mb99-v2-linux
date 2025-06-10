@@ -44,9 +44,9 @@ ROM为32GB的eMMC
 
 使用东芝TR200固态实测写入能达到200MBps
 
-- 9为TF卡槽
+- 9为microSD卡槽
 
-- 10为Maskrom按键，按下时eMMC会不能工作，此时开机若SoC在TF卡和SPI Flash上也未检测到程序，则RK3399进入Maskrom模式
+- 10为Maskrom按键，按下时eMMC会不能工作，此时开机若SoC在microSD卡和SPI Flash上也未检测到程序，则RK3399进入Maskrom模式
 
 - 11为RTL8211E经过网络变压器转换后的8 pin，具有千兆带宽，接插件规格为1.25mm 8pin
 
@@ -81,7 +81,7 @@ RJ45公头和母头的pin分别标号：
 
 # 主线U-Boot
 
-参考[此处](https://github.com/retro98boy/tn3399-v3-linux#%E7%BC%96%E8%AF%91%E4%B8%BB%E7%BA%BFu-boot)编译和使用
+参考[此处](https://github.com/retro98boy/tiannuo-tn3399-v3-linux)编译和使用
 
 # ALC5651
 
